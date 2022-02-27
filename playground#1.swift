@@ -25,7 +25,10 @@ struct ContentView: View {
             Text("디")
                 .foregroundColor(Color(red: 79 / 255, green: 156 / 255, blue: 77 / 255))
                 .font(Font.title.weight(.bold))
-                .padding()
+                .padding(0)
+        }
+        .padding(.trailing, 260)
+        .padding(.bottom, 700)
         }
     }
 }
